@@ -7,9 +7,7 @@ RUN /entrypoint.sh \
   -b libxml2-dev \
   -b libxslt-dev \
   -b libffi-dev \
-  -b openssl-dev \
-  -b libssl \
-  -b libssl-dev \
+  -b libressl-dev \
 && echo
 CMD ["ajenti-panel"]
 # you won't be able to add more dependencies later though-- see 'Debugging'
