@@ -9,5 +9,5 @@ RUN /entrypoint.sh \
   -b libffi-dev \
   -b libressl-dev \
 && echo
-CMD ["ajenti-panel"]
+CMD ["su ajenti-panel"]
 # you won't be able to add more dependencies later though-- see 'Debugging'
